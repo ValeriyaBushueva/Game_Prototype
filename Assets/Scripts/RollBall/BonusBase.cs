@@ -1,6 +1,7 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
-namespace DefaultNamespace
+namespace RollBall
 {
     public abstract class BonusBase : MonoBehaviour
     {
@@ -9,6 +10,11 @@ namespace DefaultNamespace
         private void Start()
         {
             bonusController = FindObjectOfType<BonusController>();
+            if (bonusController == null)
+            {
+                throw new NullReferenceException(
+                    $"No {nameof(BonusController)} component in the scene, please add one!");
+            }
         }
 
         private void OnTriggerEnter(Collider other)
@@ -19,8 +25,7 @@ namespace DefaultNamespace
                 Destroy(gameObject);
             }
         }
-
-
+        
         public abstract void DoBonus(BonusController bonusController);
     }
 }

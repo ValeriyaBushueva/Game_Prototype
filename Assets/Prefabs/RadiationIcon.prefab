@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 8496876958397557494}
   - component: {fileID: 8496876958395162627}
   - component: {fileID: 2420937686130796967}
+  - component: {fileID: 689677187}
+  - component: {fileID: 896925840359806673}
   m_Layer: 0
   m_Name: RadiationIcon
   m_TagString: Untagged
@@ -27,7 +29,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8496876958395305544}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 5.1790566, y: 10.561216, z: 10.304742}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -108,4 +110,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aab4a1ac62054fc9914394561d0d9346, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreValue: -15
+  scoreValue: -5
+--- !u!114 &689677187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8496876958395305544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc09a3297b6f5204f84897ccba9c748e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &896925840359806673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8496876958395305544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e196ebcb89783c84aa6e34d4b3dafc7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

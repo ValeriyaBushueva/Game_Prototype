@@ -1,0 +1,17 @@
+{
+    "name": "RollBall",
+    "rootNamespace": "",
+    "references": [
+        "Unity.TextMeshPro",
+        "CameraKit"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

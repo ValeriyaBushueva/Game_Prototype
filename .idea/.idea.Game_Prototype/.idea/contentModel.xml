@@ -40,15 +40,22 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
-          <e p="AccelerationBonus.cs" t="Include" />
-          <e p="BadBonus.cs" t="Include" />
-          <e p="BonusBase.cs" t="Include" />
-          <e p="BonusController.cs" t="Include" />
-          <e p="CameraController.cs" t="Include" />
-          <e p="Player.cs" t="Include" />
-          <e p="PlayerBall.cs" t="Include" />
-          <e p="ScoreBonus.cs" t="Include" />
-          <e p="SlowDownBonus.cs" t="Include" />
+          <e p="CameraKit" t="Include">
+            <e p="CameraShake.cs" t="Include" />
+          </e>
+          <e p="RollBall" t="Include">
+            <e p="AccelerationBonus.cs" t="Include" />
+            <e p="BadBonus.cs" t="Include" />
+            <e p="BonusBase.cs" t="Include" />
+            <e p="BonusController.cs" t="Include" />
+            <e p="BonusControllerEventBinder.cs" t="Include" />
+            <e p="CameraController.cs" t="Include" />
+            <e p="Player.cs" t="Include" />
+            <e p="PlayerBall.cs" t="Include" />
+            <e p="PointsSubstractionBonus.cs" t="Include" />
+            <e p="ScoreBonus.cs" t="Include" />
+            <e p="SlowDownBonus.cs" t="Include" />
+          </e>
         </e>
         <e p="TextMesh Pro" t="Include">
           <e p="Fonts" t="Include">
@@ -82,9 +89,11 @@
           </e>
         </e>
       </e>
+      <e p="CameraKit.csproj" t="IncludeRecursive" />
       <e p="Game_Prototype.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
+      <e p="RollBall.csproj" t="IncludeRecursive" />
       <e p="Temp\Bin" t="ExcludeRecursive" />
     </e>
   </component>
