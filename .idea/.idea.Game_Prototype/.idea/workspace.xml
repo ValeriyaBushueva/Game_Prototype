@@ -1,33 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81bce258-2b0d-426b-9430-3c07bcdd92e3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Game_Prototype/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game_Prototype/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Game_Prototype/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game_Prototype/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/RadiationIcon.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/RadiationIcon.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/SM_Icon_Star_01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/SM_Icon_Star_01.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/SM_Prop_Bomb_01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/SM_Prop_Bomb_01.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Skull_01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Skull_01.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AccelerationBonus.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AccelerationBonus.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BadBonus.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BadBonus.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BonusBase.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BonusBase.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BonusController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BonusController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerBall.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerBall.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScoreBonus.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScoreBonus.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SlowDownBonus.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SlowDownBonus.cs.meta" beforeDir="false" />
-    </list>
+    <list default="true" id="81bce258-2b0d-426b-9430-3c07bcdd92e3" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,15 +34,17 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/BonusBase.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/BonusController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/CameraKit/CameraShake.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/RollBall/AccelerationBonus.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/RollBall/BadBonus.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/RollBall/BonusBase.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/RollBall/BonusController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/RollBall/BonusControllerEventBinder.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/RollBall/CameraController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/RollBall/Player.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/RollBall/PlayerBall.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/RollBall/PointsSubstractionBonus.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/RollBall/ScoreBonus.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/RollBall/SlowDownBonus.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/RollBall/BadBonus.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/RollBall/AccelerationBonus.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/RollBall/BonusControllerEventBinder.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1tdEgmYCv9vyIrA9akMRPSZSLhS" />
@@ -116,7 +92,7 @@
       <updated>1623090685680</updated>
       <workItem from="1623090714839" duration="2899000" />
       <workItem from="1623138530574" duration="12984000" />
-      <workItem from="1623396879944" duration="11089000" />
+      <workItem from="1623396879944" duration="11796000" />
     </task>
     <servers />
   </component>
