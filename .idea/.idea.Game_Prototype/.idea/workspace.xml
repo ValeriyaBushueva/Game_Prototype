@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81bce258-2b0d-426b-9430-3c07bcdd92e3" name="Default Changelist" comment="" />
+    <list default="true" id="81bce258-2b0d-426b-9430-3c07bcdd92e3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/RollBall/FinishTrigger.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/RollBall/FinishTrigger.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Game_Prototype/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game_Prototype/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Game_Prototype/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game_Prototype/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RollBall/BonusBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RollBall/BonusBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RollBall/BonusController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RollBall/BonusController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,8 +43,6 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/BonusBase.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/BonusController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/CameraKit/CameraShake.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/RollBall/BonusBase.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/RollBall/BonusController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/RollBall/CameraController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/RollBall/Player.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/RollBall/PlayerBall.cs" />
@@ -45,6 +52,10 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/RollBall/BadBonus.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/RollBall/AccelerationBonus.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/RollBall/BonusControllerEventBinder.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/RollBall/PauseMenu.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/RollBall/BonusBase.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/RollBall/BonusController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/RollBall/FinishTrigger.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1tdEgmYCv9vyIrA9akMRPSZSLhS" />
@@ -93,6 +104,8 @@
       <workItem from="1623090714839" duration="2899000" />
       <workItem from="1623138530574" duration="12984000" />
       <workItem from="1623396879944" duration="11796000" />
+      <workItem from="1624376469909" duration="1809000" />
+      <workItem from="1624556656352" duration="2003000" />
     </task>
     <servers />
   </component>

@@ -1,10 +1,12 @@
 ﻿using System;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace RollBall
 {
     public abstract class BonusBase : MonoBehaviour
     {
+       
         private BonusController bonusController;
 
         private void Start()

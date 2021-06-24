@@ -50,6 +50,8 @@
             <e p="BonusController.cs" t="Include" />
             <e p="BonusControllerEventBinder.cs" t="Include" />
             <e p="CameraController.cs" t="Include" />
+            <e p="FinishTrigger.cs" t="Include" />
+            <e p="PauseMenu.cs" t="Include" />
             <e p="Player.cs" t="Include" />
             <e p="PlayerBall.cs" t="Include" />
             <e p="PointsSubstractionBonus.cs" t="Include" />

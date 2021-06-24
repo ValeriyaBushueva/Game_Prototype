@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace RollBall
 {
@@ -20,8 +21,8 @@ namespace RollBall
         [SerializeField] private Player player;
 
         public event Action OnSubtractPointBonusCollected;
-
-
+        
+        
         public void GameOverBonus()
         {
             gameOverText.gameObject.SetActive(true);
