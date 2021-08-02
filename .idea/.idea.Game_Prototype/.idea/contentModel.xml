@@ -51,12 +51,18 @@
             <e p="BonusControllerEventBinder.cs" t="Include" />
             <e p="CameraController.cs" t="Include" />
             <e p="FinishTrigger.cs" t="Include" />
+            <e p="IData.cs" t="Include" />
+            <e p="MiniMap.cs" t="Include" />
             <e p="PauseMenu.cs" t="Include" />
             <e p="Player.cs" t="Include" />
             <e p="PlayerBall.cs" t="Include" />
             <e p="PointsSubstractionBonus.cs" t="Include" />
+            <e p="Radar.cs" t="Include" />
+            <e p="RadarObj.cs" t="Include" />
+            <e p="SaveData.cs" t="Include" />
             <e p="ScoreBonus.cs" t="Include" />
             <e p="SlowDownBonus.cs" t="Include" />
+            <e p="XMLData.cs" t="Include" />
           </e>
         </e>
         <e p="TextMesh Pro" t="Include">
