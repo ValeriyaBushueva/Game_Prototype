@@ -51,7 +51,6 @@
             <e p="BonusControllerEventBinder.cs" t="Include" />
             <e p="CameraController.cs" t="Include" />
             <e p="FinishTrigger.cs" t="Include" />
-            <e p="IData.cs" t="Include" />
             <e p="MiniMap.cs" t="Include" />
             <e p="PauseMenu.cs" t="Include" />
             <e p="Player.cs" t="Include" />
@@ -59,9 +58,17 @@
             <e p="PointsSubstractionBonus.cs" t="Include" />
             <e p="Radar.cs" t="Include" />
             <e p="RadarObj.cs" t="Include" />
-            <e p="SaveData.cs" t="Include" />
             <e p="ScoreBonus.cs" t="Include" />
             <e p="SlowDownBonus.cs" t="Include" />
+          </e>
+          <e p="SaveSystem" t="Include">
+            <e p="Crypto.cs" t="Include" />
+            <e p="IData.cs" t="Include" />
+            <e p="JsonData.cs" t="Include" />
+            <e p="PlayerPositionSaver.cs" t="Include" />
+            <e p="SaveData.cs" t="Include" />
+            <e p="SaveDataRepository.cs" t="Include" />
+            <e p="SerializableXMLData.cs" t="Include" />
             <e p="XMLData.cs" t="Include" />
           </e>
         </e>

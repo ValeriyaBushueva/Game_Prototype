@@ -4,7 +4,12 @@
     <list default="true" id="81bce258-2b0d-426b-9430-3c07bcdd92e3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game_Prototype/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game_Prototype/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game_Prototype/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game_Prototype/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RollBall/IData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RollBall/IData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RollBall/SaveData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RollBall/SaveData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RollBall/XMLData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RollBall/XMLData.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,12 +20,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/RollBall/XMLData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/42A5878C-E129-4030-83AC-CCF18E43363F/29/a0288db8/Application.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RollBall/BadBonus.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/RollBall/IData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SaveSystem/PlayerPositionSaver.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RollBall/Radar.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9B25E913-D31D-4B8B-83EB-DE8A2012E613/34/64f311d7/XmlTextReader.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RollBall/RadarObj.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SaveSystem/SaveDataRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/48827A05-C015-4B4B-ADA3-2EAF5C10D8B0/9a/32de51fb/Action.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SaveSystem/Crypto.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -60,7 +68,13 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/RollBall/RadarObj.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/RollBall/SaveData.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/RollBall/IData.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/RollBall/SerializableXMLData.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/RollBall/XMLData.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/SaveSystem/Crypto.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/SaveSystem/JsonData.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/SaveSystem/InputController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/SaveSystem/SaveDataRepository.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/SaveSystem/PlayerPositionSaver.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1tdEgmYCv9vyIrA9akMRPSZSLhS" />
@@ -113,7 +127,8 @@
       <workItem from="1624556656352" duration="2942000" />
       <workItem from="1627645494537" duration="1743000" />
       <workItem from="1627758620636" duration="3982000" />
-      <workItem from="1627910145759" duration="1968000" />
+      <workItem from="1627910145759" duration="5711000" />
+      <workItem from="1627977610223" duration="3293000" />
     </task>
     <servers />
   </component>
@@ -141,16 +156,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/RollBall/XMLData.cs</url>
+          <url>file://$PROJECT_DIR$/Assets/Scripts/RollBall/SaveSystem/XMLData.cs</url>
           <line>57</line>
-          <properties documentPath="D:\GeekBrains\Unity основы с#\Game_Prototype\Assets\Scripts\RollBall\XMLData.cs" initialLine="57" containingFunctionPresentation="method 'Load'">
-            <startOffsets>
-              <option value="1861" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1910" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="D:\GeekBrains\Unity основы с#\Game_Prototype\Assets\Scripts\RollBall\XMLData.cs" initialLine="57" containingFunctionPresentation="method 'Load'" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

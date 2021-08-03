@@ -4,7 +4,7 @@ using UnityEngine;
 
 public sealed class XMLData : IData<SaveData>
 {
-    public void Save(SavedData player, string path = "")
+    public void Save(SaveData player, string path = "")
     {
         var xmlDoc = new XmlDocument();
 
@@ -38,9 +38,9 @@ public sealed class XMLData : IData<SaveData>
         xmlDoc.Save(path);
     }
 
-    public SavedData Load(string path = "")
+    public SaveData Load(string path = "")
     {
-        var result = new SavedData();
+        var result = new SaveData();
         if (!File.Exists(path)) return result;
         using (var reader = new XmlTextReader(path))
         {
@@ -55,19 +55,19 @@ public sealed class XMLData : IData<SaveData>
                 key = "PosX";
                 if (reader.IsStartElement(key))
                 {
-                    result.Position.X = reader.GetAttribute("value").TrySingle();
+                    result.Position.X = float.Parse(reader.GetAttribute("value"));
                 }
 
                 key = "PosY";
                 if (reader.IsStartElement(key))
                 {
-                    result.Position.Y = reader.GetAttribute("value").TrySingle();
+                    result.Position.Y = float.Parse(reader.GetAttribute("value"));
                 }
 
                 key = "PosZ";
                 if (reader.IsStartElement(key))
                 {
-                    result.Position.Z = reader.GetAttribute("value").TrySingle();
+                    result.Position.Z = float.Parse(reader.GetAttribute("value"));
                 }
             }
         }
