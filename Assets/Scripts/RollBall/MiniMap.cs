@@ -4,13 +4,15 @@ using UnityEngine;
 
 public sealed class MiniMap : MonoBehaviour
 {
+    [SerializeField] private Camera _camera;
     private Transform player;
+    
     void Start()
     {
-        var main = Camera.main;
+        var main = _camera;
         player = main.transform;
         transform.parent = null;
-        transform.rotation = Quaternion.Euler(90.0f, 0, 0);
+        transform.rotation = Quaternion.Euler(90.0f, 180, 0);
         transform.position = player.position + new Vector3(0, 5.0f, 0);
 
         var rt = Resources.Load<RenderTexture>("MiniMap/MiniMapTexture");

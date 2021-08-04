@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 5861305076554541901}
   - component: {fileID: 5861305076554541898}
   - component: {fileID: 8345651975600810867}
+  - component: {fileID: 7302352580909221019}
   m_Layer: 0
   m_Name: SI_Symbol_Dollar
   m_TagString: Untagged
@@ -122,3 +123,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreValue: 100
+--- !u!114 &7302352580909221019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5861305076554640878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f6aa9a101058ff4aa006a67d47c45bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bonusName: Money

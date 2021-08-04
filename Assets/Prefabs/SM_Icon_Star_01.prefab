@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2282698699178155289}
   - component: {fileID: 2282698699180180858}
   - component: {fileID: 4879319402801813725}
+  - component: {fileID: -7520185477018166506}
   m_Layer: 0
   m_Name: SM_Icon_Star_01
   m_TagString: Untagged
@@ -109,3 +110,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreValue: 25
+--- !u!114 &-7520185477018166506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2282698699180082137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f6aa9a101058ff4aa006a67d47c45bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bonusName: Star

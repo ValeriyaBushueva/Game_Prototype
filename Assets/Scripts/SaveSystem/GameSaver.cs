@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using RollBall;
 using UnityEngine;
 
-public class PlayerPositionSaver : MonoBehaviour
+public class GameSaver : MonoBehaviour
 {
     private Player _player;
     private SaveDataRepository _saveDataRepository;
@@ -21,7 +21,9 @@ public class PlayerPositionSaver : MonoBehaviour
     {
         if (Input.GetKeyDown(_savePlayer))
         {
-            _saveDataRepository.Save(_player);
+            BonusMark[] bonusMarks = FindObjectsOfType<BonusMark>();
+            _saveDataRepository.Save(_player, bonusMarks);
+            //_saveDataRepository.Save(_bonuses);
         }
         if (Input.GetKeyDown(_loadPlayer))
         {
