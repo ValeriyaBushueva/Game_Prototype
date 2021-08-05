@@ -1,33 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81bce258-2b0d-426b-9430-3c07bcdd92e3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SaveSystem/BonusPrefabHub.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SaveSystem/BonusPrefabHub.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Game_Prototype/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game_Prototype/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Game_Prototype/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game_Prototype/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Game_Prototype/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game_Prototype/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PowerIcon.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PowerIcon.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/RadiationIcon.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/RadiationIcon.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/SI_Symbol_Dollar.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/SI_Symbol_Dollar.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/SM_Icon_Star_01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/SM_Icon_Star_01.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/SM_Prop_Bomb_01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/SM_Prop_Bomb_01.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/SM_Prop_Crate_Question_01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/SM_Prop_Crate_Question_01.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Skull_01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Skull_01.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RollBall/MiniMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RollBall/MiniMap.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SaveSystem/JsonData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SaveSystem/JsonData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SaveSystem/PlayerPositionSaver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SaveSystem/GameSaver.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SaveSystem/PlayerPositionSaver.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SaveSystem/GameSaver.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SaveSystem/SaveDataRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SaveSystem/SaveDataRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SaveSystem/SerializableXMLData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SaveSystem/SerializableXMLData.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SaveSystem/XMLData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SaveSystem/XMLData.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/dataSave/data.bat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/dataSave/data.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-    </list>
+    <list default="true" id="81bce258-2b0d-426b-9430-3c07bcdd92e3" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -154,7 +128,7 @@
       <workItem from="1627910145759" duration="5711000" />
       <workItem from="1627977610223" duration="5151000" />
       <workItem from="1628018444761" duration="234000" />
-      <workItem from="1628095223957" duration="5474000" />
+      <workItem from="1628095223957" duration="5981000" />
     </task>
     <servers />
   </component>
