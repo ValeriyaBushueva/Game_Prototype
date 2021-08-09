@@ -23,7 +23,6 @@ public class GameSaver : MonoBehaviour
         {
             BonusMark[] bonusMarks = FindObjectsOfType<BonusMark>();
             _saveDataRepository.Save(_player, bonusMarks);
-            //_saveDataRepository.Save(_bonuses);
         }
         if (Input.GetKeyDown(_loadPlayer))
         {
