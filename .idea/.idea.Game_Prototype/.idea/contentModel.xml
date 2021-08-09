@@ -19,11 +19,6 @@
               </e>
             </e>
           </e>
-          <e p="Editor" t="Include">
-            <e p="ExtendedEditorWindow.cs" t="Include" />
-            <e p="GameDataObjectCustomEditor.cs" t="Include" />
-            <e p="GameDataObjectEditorWindow.cs" t="Include" />
-          </e>
           <e p="Fonts" t="Include">
             <e p="Baloo_Chettan" t="Include">
               <e p="OFL.txt" t="Include" />
@@ -49,8 +44,10 @@
           <e p="CameraKit" t="Include">
             <e p="CameraShake.cs" t="Include" />
           </e>
-          <e p="ExampleWindow.cs" t="Include" />
-          <e p="GameDataObject.cs" t="Include" />
+          <e p="Editor" t="Include">
+            <e p="ExampleWindow.cs" t="Include" />
+            <e p="PlayerEditor.cs" t="Include" />
+          </e>
           <e p="RollBall" t="Include">
             <e p="AccelerationBonus.cs" t="Include" />
             <e p="BadBonus.cs" t="Include" />
@@ -69,6 +66,7 @@
             <e p="RadarObj.cs" t="Include" />
             <e p="ScoreBonus.cs" t="Include" />
             <e p="SlowDownBonus.cs" t="Include" />
+            <e p="TestBehaviour.cs" t="Include" />
           </e>
           <e p="SaveSystem" t="Include">
             <e p="BonusPrefabHub.cs" t="Include" />

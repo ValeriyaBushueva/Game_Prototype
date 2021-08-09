@@ -4,7 +4,19 @@
     <list default="true" id="81bce258-2b0d-426b-9430-3c07bcdd92e3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game_Prototype/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game_Prototype/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game_Prototype/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game_Prototype/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SaveSystem/GameSaver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SaveSystem/GameSaver.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Course Library.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Course Library/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Course Library/Editor/ExtendedEditorWindow.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Course Library/Editor/ExtendedEditorWindow.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Course Library/Editor/GameDataObjectCustomEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Course Library/Editor/GameDataObjectCustomEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Course Library/Editor/GameDataObjectEditorWindow.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Course Library/Editor/GameDataObjectEditorWindow.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ExampleWindow.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ExampleWindow.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameDataObject.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameDataObject.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RollBall/PlayerBall.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RollBall/PlayerBall.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,12 +31,11 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9B25E913-D31D-4B8B-83EB-DE8A2012E613/34/64f311d7/XmlTextReader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8462C93B-00B5-4616-9C50-6EB8281FD255/11/a97e836a/List`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SaveSystem/SaveDataRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/PlayerEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/48827A05-C015-4B4B-ADA3-2EAF5C10D8B0/9a/32de51fb/Action.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SaveSystem/Crypto.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ExampleWindow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/42A5878C-E129-4030-83AC-CCF18E43363F/29/a0288db8/Application.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RollBall/BadBonus.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Course Library/Editor/ExtendedEditorWindow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SaveSystem/GameSaver.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0B59F3B6-14A0-4547-A8BF-657DE1E23F2C/e7/7a5205fb/JsonUtility.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RollBall/RadarObj.cs" root0="FORCE_HIGHLIGHTING" />
@@ -32,9 +43,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerBall.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/GameController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/InteractiveObject.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DisplayBonuses.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/BadBonus.cs" />
@@ -52,7 +60,6 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/CameraKit/CameraShake.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/RollBall/CameraController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/RollBall/Player.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/RollBall/PlayerBall.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/RollBall/PointsSubstractionBonus.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/RollBall/ScoreBonus.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/RollBall/SlowDownBonus.cs" />
@@ -83,6 +90,10 @@
       <option value="$PROJECT_DIR$/Assets/Course Library/Editor/ExtendedEditorWindow.cs" />
       <option value="$PROJECT_DIR$/Assets/Course Library/Editor/GameDataObjectEditorWindow.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ExampleWindow.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Editor/PlayerSize.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Editor/TestBehaviour.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/RollBall/PlayerBall.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Editor/PlayerEditor.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1tdEgmYCv9vyIrA9akMRPSZSLhS" />
@@ -140,7 +151,7 @@
       <workItem from="1628018444761" duration="234000" />
       <workItem from="1628095223957" duration="5981000" />
       <workItem from="1628161443658" duration="2281000" />
-      <workItem from="1628494865507" duration="6082000" />
+      <workItem from="1628494865507" duration="9206000" />
     </task>
     <servers />
   </component>
