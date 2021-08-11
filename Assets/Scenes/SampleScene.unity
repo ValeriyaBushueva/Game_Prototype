@@ -3292,6 +3292,7 @@ GameObject:
   - component: {fileID: 1046413846}
   - component: {fileID: 1046413845}
   - component: {fileID: 1046413850}
+  - component: {fileID: 1046413851}
   - component: {fileID: 1046413849}
   m_Layer: 0
   m_Name: Player
@@ -3405,6 +3406,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1046413851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1046413844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e70b6e9cbb198f14f906130704f5d60e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseSize: 1
 --- !u!1001 &1082440300
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3705,71 +3719,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1981461125}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1186736855
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1186736857}
-  - component: {fileID: 1186736856}
-  m_Layer: 0
-  m_Name: BonusPrefabHub
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1186736856
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1186736855}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f3b22dd11a342f79a1da3939ac74d82, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bonusPrefabsByKey:
-  - BonusName: SpeedUp
-    BonusPrefab: {fileID: 1287646163771077071, guid: b119233ab1df7d244ae02b2e1768ea92,
-      type: 3}
-  - BonusName: Radiation
-    BonusPrefab: {fileID: 8496876958395305544, guid: c8a0ba0f036df9c4a80da39a8f34da3c,
-      type: 3}
-  - BonusName: Money
-    BonusPrefab: {fileID: 5861305076554640878, guid: 565cced6912ae2a49ab64e7f0c33760e,
-      type: 3}
-  - BonusName: Skull
-    BonusPrefab: {fileID: 7572716135104835230, guid: 41594a0b02cee5649b47a27a1a906c93,
-      type: 3}
-  - BonusName: Star
-    BonusPrefab: {fileID: 2282698699180082137, guid: b2c1a06a79794fe4ca5d07ab36467643,
-      type: 3}
-  - BonusName: Bomb
-    BonusPrefab: {fileID: 1654692086290758288, guid: 33d574090e64dbf4591cc6f073c2c5b2,
-      type: 3}
-  - BonusName: Box
-    BonusPrefab: {fileID: 2164433216075860465, guid: be23ec593869fa444afb07a2ba840787,
-      type: 3}
---- !u!4 &1186736857
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1186736855}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 770.5535, y: 627.2042, z: -29.308277}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1237190544
 GameObject:
   m_ObjectHideFlags: 0
@@ -4582,7 +4531,7 @@ PrefabInstance:
     - target: {fileID: 2282698699180082137, guid: b2c1a06a79794fe4ca5d07ab36467643,
         type: 3}
       propertyPath: m_Name
-      value: SM_Icon_Star_01 (8)
+      value: )M_Icon_Star_01 (8)
       objectReference: {fileID: 0}
     - target: {fileID: 2282698699180580857, guid: b2c1a06a79794fe4ca5d07ab36467643,
         type: 3}

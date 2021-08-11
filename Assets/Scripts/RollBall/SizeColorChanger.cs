@@ -1,8 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class TestBehaviour : MonoBehaviour
+public class SizeColorChanger : MonoBehaviour
 {
     [SerializeField] public float baseSize = 1f;
 

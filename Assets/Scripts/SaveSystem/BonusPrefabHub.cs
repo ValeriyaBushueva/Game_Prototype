@@ -5,7 +5,8 @@ using UnityEngine;
 
 namespace SaveSystem
 {
-    public class BonusPrefabHub : MonoBehaviour
+    [CreateAssetMenu(fileName = "BonusPrefabHub", menuName = "Data/Prefab hub", order = 0)]
+    public class BonusPrefabHub : ScriptableObject
     {
         [SerializeField] private List<BonusPrefabByKey> bonusPrefabsByKey;
 

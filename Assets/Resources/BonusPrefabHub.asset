@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 569c6a05e61343ce932a615f7688c6c8, type: 3}
+  m_Name: BonusPrefabHub
+  m_EditorClassIdentifier: 
+  bonusPrefabsByKey:
+  - BonusName: SpeedUp
+    BonusPrefab: {fileID: 1287646163771077071, guid: b119233ab1df7d244ae02b2e1768ea92,
+      type: 3}
+  - BonusName: Radiation
+    BonusPrefab: {fileID: 8496876958395305544, guid: c8a0ba0f036df9c4a80da39a8f34da3c,
+      type: 3}
+  - BonusName: Money
+    BonusPrefab: {fileID: 5861305076554640878, guid: 565cced6912ae2a49ab64e7f0c33760e,
+      type: 3}
+  - BonusName: Skull
+    BonusPrefab: {fileID: 7572716135104835230, guid: 41594a0b02cee5649b47a27a1a906c93,
+      type: 3}
+  - BonusName: Star
+    BonusPrefab: {fileID: 2282698699180082137, guid: b2c1a06a79794fe4ca5d07ab36467643,
+      type: 3}
+  - BonusName: Bomb
+    BonusPrefab: {fileID: 1654692086290758288, guid: 33d574090e64dbf4591cc6f073c2c5b2,
+      type: 3}
+  - BonusName: Box
+    BonusPrefab: {fileID: 2164433216075860465, guid: be23ec593869fa444afb07a2ba840787,
+      type: 3}

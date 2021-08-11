@@ -62,7 +62,7 @@ public sealed class SaveDataRepository
         player.transform.position = playerData.Position;
         player.name = playerData.Name;
 
-        BonusPrefabHub prefabHub = Object.FindObjectOfType<BonusPrefabHub>();
+        BonusPrefabHub prefabHub = Resources.Load<BonusPrefabHub>("BonusPrefabHub");
 
         
         BonusMark[] toDestroyAllBonusBeforeLoad = Object.FindObjectsOfType<BonusMark>();

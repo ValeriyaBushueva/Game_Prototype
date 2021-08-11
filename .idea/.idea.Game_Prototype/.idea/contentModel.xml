@@ -46,7 +46,7 @@
           </e>
           <e p="Editor" t="Include">
             <e p="ExampleWindow.cs" t="Include" />
-            <e p="PlayerEditor.cs" t="Include" />
+            <e p="SizeColorChangerEditor.cs" t="Include" />
           </e>
           <e p="RollBall" t="Include">
             <e p="AccelerationBonus.cs" t="Include" />
@@ -65,8 +65,8 @@
             <e p="Radar.cs" t="Include" />
             <e p="RadarObj.cs" t="Include" />
             <e p="ScoreBonus.cs" t="Include" />
+            <e p="SizeColorChanger.cs" t="Include" />
             <e p="SlowDownBonus.cs" t="Include" />
-            <e p="TestBehaviour.cs" t="Include" />
           </e>
           <e p="SaveSystem" t="Include">
             <e p="BonusPrefabHub.cs" t="Include" />

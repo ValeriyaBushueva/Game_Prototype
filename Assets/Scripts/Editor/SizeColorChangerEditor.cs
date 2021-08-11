@@ -1,13 +1,12 @@
-using RollBall;
 using UnityEngine;
 using UnityEditor;
 
-[CustomEditor(typeof(TestBehaviour))]
-public class PlayerEditor : Editor
+[CustomEditor(typeof(SizeColorChanger))]
+public class SizeColorChangerEditor : Editor
 {
     public override void OnInspectorGUI()
     {
-        TestBehaviour player = (TestBehaviour)target;
+        SizeColorChanger player = (SizeColorChanger)target;
         
         GUILayout.Label("Oscillates around a base size");
         
